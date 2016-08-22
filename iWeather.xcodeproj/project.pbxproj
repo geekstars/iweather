@@ -12,6 +12,12 @@
 		F5001E451D6850CB00054E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5001E431D6850CB00054E41 /* Main.storyboard */; };
 		F5001E471D6850CB00054E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5001E461D6850CB00054E41 /* Assets.xcassets */; };
 		F5001E4A1D6850CB00054E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5001E481D6850CB00054E41 /* LaunchScreen.storyboard */; };
+		F5001E531D6850FA00054E41 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5001E521D6850FA00054E41 /* moon.png */; };
+		F5001E551D68510200054E41 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = F5001E541D68510200054E41 /* sun.png */; };
+		F5001E571D68510800054E41 /* blood.png in Resources */ = {isa = PBXBuildFile; fileRef = F5001E561D68510800054E41 /* blood.png */; };
+		F5CF60301D6AAB01006D008D /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CF602D1D6AAB01006D008D /* weather.png */; };
+		F5CF60311D6AAB01006D008D /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CF602E1D6AAB01006D008D /* rain.png */; };
+		F5CF60321D6AAB01006D008D /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CF602F1D6AAB01006D008D /* cloudy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F5001E461D6850CB00054E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5001E491D6850CB00054E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5001E4B1D6850CB00054E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5001E521D6850FA00054E41 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		F5001E541D68510200054E41 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		F5001E561D68510800054E41 /* blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood.png; sourceTree = "<group>"; };
+		F5CF602D1D6AAB01006D008D /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+		F5CF602E1D6AAB01006D008D /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		F5CF602F1D6AAB01006D008D /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		F5001E331D6850CB00054E41 = {
 			isa = PBXGroup;
 			children = (
+				F5001E511D6850D300054E41 /* image */,
 				F5001E3E1D6850CB00054E41 /* iWeather */,
 				F5001E3D1D6850CB00054E41 /* Products */,
 			);
@@ -62,6 +75,19 @@
 				F5001E4B1D6850CB00054E41 /* Info.plist */,
 			);
 			path = iWeather;
+			sourceTree = "<group>";
+		};
+		F5001E511D6850D300054E41 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF602D1D6AAB01006D008D /* weather.png */,
+				F5CF602E1D6AAB01006D008D /* rain.png */,
+				F5CF602F1D6AAB01006D008D /* cloudy.png */,
+				F5001E521D6850FA00054E41 /* moon.png */,
+				F5001E541D68510200054E41 /* sun.png */,
+				F5001E561D68510800054E41 /* blood.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5001E531D6850FA00054E41 /* moon.png in Resources */,
+				F5CF60321D6AAB01006D008D /* cloudy.png in Resources */,
 				F5001E4A1D6850CB00054E41 /* LaunchScreen.storyboard in Resources */,
+				F5001E571D68510800054E41 /* blood.png in Resources */,
+				F5001E551D68510200054E41 /* sun.png in Resources */,
+				F5CF60301D6AAB01006D008D /* weather.png in Resources */,
+				F5CF60311D6AAB01006D008D /* rain.png in Resources */,
 				F5001E471D6850CB00054E41 /* Assets.xcassets in Resources */,
 				F5001E451D6850CB00054E41 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +318,7 @@
 				F5001E501D6850CB00054E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
